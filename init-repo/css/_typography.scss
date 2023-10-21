@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'NeuWorld'; /* You can name it whatever you like */
+  src: url('../font/PPNeueWorld-Regular.woff2') format('woff2');
+  /* Additional font formats can be added for better compatibility */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  color:white;
+  font-family: "open sans";
+  font-weight:100;
+}
+h1 {
+  font-size:6rem;
+}
+.neue {
+  font-family:'NeuWorld';
+}
+p {
+  font-size:1.75rem;
+}
