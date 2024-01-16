@@ -28,7 +28,9 @@ a.white {
 }
 
 body {
-  background: #1a1a1a;
+  background: url("./img/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mb100 {
