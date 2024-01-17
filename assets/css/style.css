@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "NeuWorld"; /* You can name it whatever you like */
+  font-family: "NeuWorld";
+  /* You can name it whatever you like */
   src: url("../font/PPNeueWorld-Regular.woff2") format("woff2");
   /* Additional font formats can be added for better compatibility */
   font-weight: normal;
   font-style: normal;
 }
 * {
-  color: white;
   font-family: "open sans";
   font-weight: 100;
 }
@@ -41,31 +41,33 @@ p {
 }
 .card-container .card {
   /* Dark background color */
-  color: #fff; /* White text color */
-  border: 1px solid #fff; /* White outline */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Padding around the card */
-  text-align: center; /* Center text */
+  border: 1px solid #1a1a1a;
+  /* White outline */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding around the card */
+  text-align: center;
+  /* Center text */
   display: flex;
   flex-flow: column;
 }
 
 /* Style the card's children */
 .card h3 {
-  font-size: 1.5rem; /* Adjust the font size as needed */
-  margin: 0; /* Remove default margin */
-  padding-bottom: 10px; /* Add space between h3 and p tags */
+  font-size: 1.5rem;
+  /* Adjust the font size as needed */
+  margin: 0;
+  /* Remove default margin */
+  padding-bottom: 10px;
+  /* Add space between h3 and p tags */
 }
 
 .card p {
-  font-size: 1rem; /* Adjust the font size as needed */
-  margin: 0; /* Remove default margin */
-}
-
-.btn-group {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
+  font-size: 1rem;
+  /* Adjust the font size as needed */
+  margin: 0;
+  /* Remove default margin */
 }
 
 .block {
@@ -18058,32 +18060,36 @@ strong {
   color: #1a1a1a !important;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
-a.white {
-  color: white;
-}
-
-body {
-  background: #1a1a1a;
-}
-
-.btn {
+.button {
   font-size: 1.5rem;
-  padding: 2rem 4rem;
-  border: 1px solid white;
+  padding: 1rem 2rem;
+  border: 1px solid #1a1a1a;
   display: block;
   text-align: center;
   border-radius: 60px;
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  position: fixed;
+  z-index: 3;
+  top: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 nav .navigation {
   display: flex;
@@ -18098,7 +18104,7 @@ nav .navigation .menu {
 }
 nav .navigation .menu span.line {
   width: 25px;
-  border-bottom: 0.5px solid white;
+  border-bottom: 0.5px solid #1a1a1a;
   display: block;
   position: absolute;
   top: 15px;
@@ -18131,7 +18137,6 @@ nav .navigation .menu .line.rotatedMinus45 {
 }
 
 .container-home {
-  background: url("/assets/img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -18146,4 +18151,17 @@ nav .navigation .menu .line.rotatedMinus45 {
 
 .subtitle {
   font-size: 2rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.menu-container {
+  height: 100vh;
+  background: maroon;
+}
+
+.box {
+  background: white;
+  height: 300px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */

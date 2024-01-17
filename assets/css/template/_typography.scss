@@ -1,3 +1,5 @@
+@import 'colors';
+
 @font-face {
   font-family: 'NeuWorld'; /* You can name it whatever you like */
   src: url('../font/PPNeueWorld-Regular.woff2') format('woff2');
@@ -6,8 +8,7 @@
   font-style: normal;
 }
 
-* {
-  color:white;
+* { 
   font-family: "open sans";
   font-weight:100;
 }
@@ -41,8 +42,7 @@ p {
 
   .card {
     /* Dark background color */
-      color: #fff; /* White text color */
-      border: 1px solid #fff; /* White outline */
+      border: 1px solid $dark; /* White outline */
       border-radius: 8px; /* Rounded corners */
       padding: 20px; /* Padding around the card */
       text-align: center; /* Center text */

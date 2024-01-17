@@ -1,3 +1,14 @@
+// const gsap = require('C:/Sandbox/node_modules/gsap/dist/gsap');
+
+// import { gsap } from "C:/Sandbox/node_modules/gsap/dist/gsap";
+
+import { gsap } from "gsap";
+
+
+
+
+gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
+
 const menu = document.querySelector('.menu');
 const lines = menu.querySelectorAll('span.line');
 

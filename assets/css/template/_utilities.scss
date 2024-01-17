@@ -1,8 +1,13 @@
-.btn-group {
-  display: flex;
-  justify-content:space-around;
-  width: 100%;
-}
+$colors: (
+  'white': #fff,
+  'black': #000,
+  'highlight-color': #9e0000,
+  'accent-color': grey,
+  'dark': #1a1a1a,
+  // Add more color names and values as needed
+);
+
+
 .block {
   display:block;
 }
@@ -175,14 +180,6 @@ strong{
 }  
 
 
-$colors: (
-  white: #fff,
-  black: #000,
-  highlight-color: #9e0000,
-  accent-color: grey,
-  dark:#1a1a1a,
-  // Add more color names and values as needed
-);
 
 @each $color-name, $color-value in $colors {
   .bg-#{$color-name} {
@@ -190,11 +187,9 @@ $colors: (
   }
 }
 
-
-
 @each $color-name, $color-value in $colors {
   .text-#{$color-name} {
-    color: $color-value!important;
+    color: $color-value !important;
   }
 }
 

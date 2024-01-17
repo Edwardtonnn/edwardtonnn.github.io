@@ -1,0 +1,17 @@
+@import 'colors';
+
+.button-group {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+
+.button {
+  font-size:1.5rem;
+  padding:1rem  2rem;
+  border:1px solid $dark;
+  display: block;
+  text-align:center;
+  border-radius:60px;
+  text-decoration: none;
+}

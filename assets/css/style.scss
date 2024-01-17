@@ -1,5 +1,6 @@
 @import "template/typography";
 @import "template/utilities";
+@import "template/buttons";
 
 
 *{
@@ -7,31 +8,20 @@
   padding:0px;
   
 }
-a.white {
-  color:white;
-}
-
-body {
-  background:#1a1a1a;
-}
-
-
-.btn {
-  font-size:1.5rem;
-  padding:2rem  4rem;
-  border:1px solid white;
-  display: block;
-  text-align:center;
-  border-radius:60px;
-}
 
 nav {
   display: flex;
   justify-content: space-between;
   padding:15px;
+  position:fixed;
+  z-index: 3;
+  top:10px;
+  width:100%;
+  box-sizing:border-box;
 
   .navigation {
-    display:flex;
+    display:flex; 
+
 
     .contact {
       margin-right:40px;
@@ -42,9 +32,10 @@ nav {
       width:30px;
       cursor: pointer;
     
+    
       span.line {
         width:25px;
-        border-bottom:.5px solid white;
+        border-bottom:.5px solid $dark;
         display: block;
         position: absolute;
         top:15px;
@@ -79,12 +70,7 @@ nav {
   margin: 0 20px;
 }
 
-
-
-
-
-.container-home{
-  background:url('/assets/img/bg.jpg');
+.container-home{  
   background-size:cover;
   background-attachment:fixed;
 
@@ -103,4 +89,14 @@ nav {
 }
 
 
+.menu-container{
+  height:100vh;
+  background:maroon;
+}
 
+
+.box{
+  background:white;
+  height:300px;
+  width:300px;
+}
