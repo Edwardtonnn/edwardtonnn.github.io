@@ -1,6 +1,5 @@
 @font-face {
-  font-family: "NeuWorld";
-  /* You can name it whatever you like */
+  font-family: "NeuWorld"; /* You can name it whatever you like */
   src: url("../font/PPNeueWorld-Regular.woff2") format("woff2");
   /* Additional font formats can be added for better compatibility */
   font-weight: normal;
@@ -41,33 +40,24 @@ p {
 }
 .card-container .card {
   /* Dark background color */
-  border: 1px solid #1a1a1a;
-  /* White outline */
-  border-radius: 8px;
-  /* Rounded corners */
-  padding: 20px;
-  /* Padding around the card */
-  text-align: center;
-  /* Center text */
+  border: 1px solid #1a1a1a; /* White outline */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around the card */
+  text-align: center; /* Center text */
   display: flex;
   flex-flow: column;
 }
 
 /* Style the card's children */
 .card h3 {
-  font-size: 1.5rem;
-  /* Adjust the font size as needed */
-  margin: 0;
-  /* Remove default margin */
-  padding-bottom: 10px;
-  /* Add space between h3 and p tags */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+  padding-bottom: 10px; /* Add space between h3 and p tags */
 }
 
 .card p {
-  font-size: 1rem;
-  /* Adjust the font size as needed */
-  margin: 0;
-  /* Remove default margin */
+  font-size: 1rem; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
 }
 
 .block {
@@ -18134,6 +18124,8 @@ nav .navigation .menu .line.rotatedMinus45 {
   text-decoration: none;
   position: relative;
   margin: 0 20px;
+  color: #1a1a1a;
+  font-weight: bold;
 }
 
 .container-home {
@@ -18154,14 +18146,17 @@ nav .navigation .menu .line.rotatedMinus45 {
 }
 
 .menu-container {
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 2;
   height: 100vh;
-  background: maroon;
+  width: 100%;
+  background: black;
+  color: white;
+  position: fixed;
 }
 
-.box {
-  background: white;
-  height: 300px;
-  width: 300px;
-}
-
-/*# sourceMappingURL=style.css.map */
+.white {
+  color: white !important;
+}/*# sourceMappingURL=style.css.map */

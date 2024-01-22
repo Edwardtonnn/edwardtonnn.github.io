@@ -68,6 +68,8 @@ nav {
   text-decoration: none;
   position: relative;
   margin: 0 20px;
+  color:#1a1a1a;
+  font-weight:bold;
 }
 
 .container-home{  
@@ -88,15 +90,20 @@ nav {
   font-size:2rem;
 }
 
-
 .menu-container{
+  top:0;
+  left:0;
+  display:none;
+  z-index: 2;
   height:100vh;
-  background:maroon;
+  width:100%;
+  background:black;
+  color:white;
+  position: fixed;
+}
+
+.white{
+  color:white!important;
 }
 
 
-.box{
-  background:white;
-  height:300px;
-  width:300px;
-}
